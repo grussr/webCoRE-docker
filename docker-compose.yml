@@ -3,7 +3,7 @@ version: "3"
 services:
   webcore:
     container_name: webcore
-    image: ghcr.io/grussr/webcore:latest
+    image: ghcr.io/grussr/webcore-docker:latest
     ports:
       - "8880:80/tcp"
     restart: unless-stopped
